@@ -32,3 +32,9 @@ steps:
   inputs:
     pathToPublish: '$(Build.ArtifactStagingDirectory)'
     artifactName: 'jar'
+
+- task: CmdLine@2
+  inputs:
+    script: 'mvn --version'
+
+
