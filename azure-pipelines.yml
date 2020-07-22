@@ -40,6 +40,7 @@ steps:
       
       echo Hello world
       mvn --version 
+      cd AzureDemoPipeline
       mvn package
       echo Aneesh Kg
 
