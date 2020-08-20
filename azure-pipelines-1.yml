@@ -1,4 +1,7 @@
 # Docker
+- task: DockerInstaller@0
+  inputs:
+    dockerVersion: '17.09.0-ce'
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
