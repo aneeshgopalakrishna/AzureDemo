@@ -41,7 +41,7 @@ steps:
       echo Hello world
       mvn --version 
       cd AzureDemoPipeline
-      mvn package
+      mvn deploy
       echo Aneesh Kg
 
 
